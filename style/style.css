@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+body{
+    max-width: 1920px;
+}
+/* navbar */
+.nav-logo{
+    display: flex;
+    align-items: center;
+
+}
+.nav-container{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   margin-top: 1.25rem;
+}
+
+.nav-content{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+    text-align: center;
+    margin-top: 1.35rem;
+}
+.nav-content a{
+    text-decoration: none;
+    font-size: 1.25rem;
+
+}
+.nav-btn{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    border-radius:0.75rem;
+    border: none;
+    font-size: 1.25rem;
+    position: fixed;
+}
+.contact-btn{
+    /* padding-right: 250px; */
+    margin-top: 20px;
+    align-items: center;
+
+}
+.nav-title{
+    font-size:2rem;
+    font-weight: bold;
+}
+.nav-btn1{
+    color:rgba(254, 163, 1, 1);
+}
+.nav-btn2{
+    color:rgba(1, 172, 253, 1);
+}
+.nav-btn3{
+    color:rgba(5, 212, 223, 1);
+}
+.nav-btn4{
+    color:rgba(93, 88, 239, 1);
+}
+.fa-bars{
+    font-size: 60px;
+}
+.menu{
+    text-align: center;
+
+    display: none;
+}
+/* banner section */
+.banner-title-1{
+    font-size: 3.5rem;
+    color:rgba(254, 163, 1, 1);
+    font-weight: bold;
+}
+.banner-title-2{
+    font-size: 3.5rem;
+    color:rgba(17, 17, 17, 1) ;
+    font-weight: bold;
+}
+.banner-title-3{
+    font-size: 3.5rem;
+    color:rgba(1, 172, 253, 1) ;
+    font-weight: bold;
+}
+.sub-title{
+    font-size:1.25rem;
+}
+.banner-btn{
+    padding:0.700rem 2.938rem 0.700rem 2.938rem;
+    border-radius: 0.75rem;
+    background-color: black;
+    color: white;
+    font-size: 0.700;
+    font-weight: bold;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-description{
+    /* padding: 122px 300px 122px 200px; */
+    margin-top: 150px;
+    padding-right: 20px;
+    
+}

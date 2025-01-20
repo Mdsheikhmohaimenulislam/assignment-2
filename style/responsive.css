@@ -1,0 +1,15 @@
+@media only screen and (max-width:830px){ 
+
+        .menu{
+          display: block;
+        }
+        .nav-content,.nav-btn{
+            display: none;
+        }
+/* banner section */
+
+         .banner-container{
+            flex-wrap: wrap-reverse;
+            text-align: center;
+         }
+}
