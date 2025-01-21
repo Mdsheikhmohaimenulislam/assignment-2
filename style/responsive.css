@@ -1,4 +1,4 @@
-@media only screen and (max-width:1091px){ 
+@media only screen and (max-width:1128px){ 
 
         .menu{
           display: block;
@@ -16,6 +16,16 @@
             margin-bottom: 30px;
             margin-top: 0px;
         }
+/* Standard section */
+
+        .card-container{
+            flex-direction: column;
+
+            padding:0px 50px 0px 50px;
+            /* gap: 100px; */
+            margin-bottom:30px;
+          }
+          
 }
 
 /* Medium section */
@@ -41,4 +51,15 @@
       .banner-btn{
         margin-bottom: 30px;
       }
+ /* Standard section */
+ .card-container{
+    flex-direction: column;
+    max-width: 100%;
+    margin:197px 50px 0px 50px;
+  }
+  .less-than-icon{
+    display: none;
+  }
+
+
 }
