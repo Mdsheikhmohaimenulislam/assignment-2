@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
-.quicksand-font{
+  .quicksand-font{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
-body{
     max-width: 1920px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-bottom: 0;
 }
 /* navbar */
 .nav-logo{
@@ -216,7 +215,7 @@ body{
     text-align: center;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 90px;
+    margin-bottom: 0px;
 }
 .stori-section{
     background:url("../assets/bg.png"),rgb(249, 226, 185);
@@ -393,3 +392,48 @@ body{
     left: 64px;
 }
 /* footer section */
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(1, 172, 253, 1);
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 60px;
+}
+.footer-logo{
+    display: flex;
+}
+.footer-description{
+    max-width: 350px;
+    color: white;
+
+}
+.footer-container h1{
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.footer-about  li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.footer-about  li {
+   list-style: none;
+   color: white;
+
+ 
+}
+.footer-about h3{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-icon h2{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
