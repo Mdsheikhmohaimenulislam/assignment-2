@@ -1,3 +1,27 @@
+@media only screen and (max-width:1295px){
+    /*Our stoti section  */
+    .stori-card-1{
+        display: none;
+      }
+
+      .stori-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column: span;
+        justify-items: center;
+        justify-content: center;
+      }
+    .stori-card-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-column: span 2;
+        justify-content: center;
+        justify-items: center;
+        gap: 50px;
+     
+    }
+
+}
+
 @media only screen and (max-width:1128px){ 
 
         .menu{
@@ -25,16 +49,38 @@
             /* gap: 100px; */
             margin-bottom:30px;
           }
-          
+/*Our stoti section  */
+              .stori-card-1{
+                display: none;
+              }
+
+              .stori-container{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-column: span;
+                justify-items: center;
+                justify-content: center;
+              }
+            .stori-card-container{
+                grid-template-columns: repeat(2,1fr);
+                grid-column: span 2;
+                justify-content: center;
+                justify-items: center;
+                gap: 10px;
+             
+            }
+
+
 }
 
 /* Medium section */
 @media only screen and (max-width:621px){
+
     .menu{
         display: block;
       }
       .nav-content,.nav-btn{
-          display: none;
+          display:none ;
       }
 /* banner section */
 
@@ -60,6 +106,37 @@
   .less-than-icon{
     display: none;
   }
+/*Our stoti section  */
+  .stori-card-1{
+    display: none;
+  }
+
+}
 
 
+@media only screen and (max-width:587px){
+    .menu{
+        display: block;
+      }
+      .nav-content,.nav-btn{
+          display:none ;
+      }
+    /*Our stoti section  */
+    .stori-card-1{
+        display: none;
+      }
+
+      .stori-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        justify-content: center;
+      }
+    .stori-card-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        justify-items: center;
+        gap: 10px;
+     
+    }
 }
